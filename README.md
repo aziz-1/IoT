@@ -8,9 +8,8 @@ The notebook also generates public URLs for the uploaded Google Sheets, which ca
 
 - [Introduction](#introduction)
 - [Setup](#setup)
-- [Usage](#usage)
 - [Files](#files)
-- [License](#license)
+
 
 ## Introduction
 
@@ -29,5 +28,9 @@ The notebook performs the following tasks:
 
 ### Install Required Libraries
 
-```sh
 pip install pandas gspread oauth2client
+
+## Files
+
+The notebook uses csv files for energy consumption and JSON for weather. It also includes sample file for tweets. 
+
